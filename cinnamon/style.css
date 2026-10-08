@@ -1,0 +1,176 @@
+body 
+{
+    margin: 0;
+    background-color: #d8c9e8;
+    font-family: Arial, sans-serif;
+    color: white;
+     text-shadow:
+        1px 1px 0 #7d5cae,
+        -1px -1px 0 #4b3b63,
+        1px -1px 0 #4b3b63,
+        -1px 1px 0 #4b3b63;
+}
+
+header 
+{
+    background-color: #7b709d;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 
+{
+    color: white;
+}
+
+main 
+{
+    width: 85%;
+    max-width: 1000px;
+    margin: 25px auto;
+}
+
+.intro 
+{
+    display: flex;
+    background-color: #9786b4;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #66577e;
+    box-sizing: border-box;
+}
+
+.intro img 
+{
+    width: 280px;
+    height: auto;
+    margin-right: 20px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.intro img:hover
+{
+    transform: scale(1.05);
+}
+
+.ingredients
+{
+    background-color: #9786b4;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #66577e;
+    box-sizing: border-box;
+}
+
+.ingredients img
+{
+    width: 300px;
+    max-width: 70%;
+    height: auto;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.ingredients img:hover
+{
+    transform: scale(1.05);
+}
+
+.photo-section 
+{
+    background-color: #9786b4;
+    padding: 20px;
+    margin-top: 25px;
+    border: 1px solid #66577e;
+}
+
+.photo-gallery 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.photo-gallery img 
+{
+    width: 270px;
+    height: 450px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.photo-gallery img:hover 
+{
+    transform: scale(1.05);
+}
+
+.instructions h2,
+.photo-section h2,
+.final h2,
+.source h2 
+{
+    text-align: center;
+    
+}
+
+.step 
+{
+    background-color: #9786b4;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #66577e;
+    box-sizing: border-box;
+    
+}
+
+.step h3 
+{
+    color: white;
+}
+
+
+.final 
+{
+    background-color: #9786b4;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid #66577e;
+}
+
+.final img 
+{
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.final img:hover
+{
+    transform: scale(1.05);
+}
+
+.source 
+{
+    background-color: #9786b4;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: center;
+    border: 1px solid #66577e;
+}
+
+.source a 
+{
+    color: #f9f5ff;
+}
+
+footer 
+{
+    background-color: #7b709d;
+    padding: 15px;
+    text-align: center;
+}
